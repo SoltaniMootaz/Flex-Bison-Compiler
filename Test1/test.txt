@@ -1,0 +1,13 @@
+import MiniL.lang;
+import MiniL.io;
+public class a{
+integer a1;
+str ch;
+real a2;
+main{
+integer i;
+a1:=0;
+a2:=3;
+for(i:=0,(i<a2),i++){}
+}
+} 

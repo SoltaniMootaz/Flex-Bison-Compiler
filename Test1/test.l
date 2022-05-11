@@ -5,7 +5,7 @@
 #define YY_BUF_SIZE 2000*1024
 %}
 HEADER	"import MiniL.lang"[ ]*";"|"import MiniL.io"[ ]*";"
-DEBUTCLASS {MODIFICATEUR}+[ ]*+[^\n]"class"+[ ]+{ID}"{"|{MODIFICATEUR}+[ ]*+[^\n]"class"+[ ]+{ID}[ \t\n]*"{"
+DEBUTCLASS {MODIFICATEUR}[ ]+[^\n]"class"[ ]+{ID}[ ]*"{"|{MODIFICATEUR}+[ ]*+[^\n]"class"+[ ]+{ID}[ \t\n]*"{"
 FINBLOC "}"
 DEBUTMAIN "main"[ ]*"{"|"main"[ \t\n]*"{"
 INSTRUCTION {AFFECTATION}|{BOUCLE}
@@ -18,7 +18,7 @@ ARITHEXPRES {ID}[ ]*{OPA}[ ]*{ID}[ ]*";"|{ID}[ ]*{OPA}[ ]*{DIGIT}+[ ]*";"|{DIGIT
 AFFECTATION {ID}[ ]*":="[ ]*{DIGIT}+[ ]*";"|{ID}[ ]*":="[ ]*{ARITHEXPRES}][ ]*";"|{ID}[ ]*":="[ ]*{ID}[ ]*";"
 COMPAREXPRES "("[ ]*{ID}[ ]*{OPC}[ ]*{ID}[ ]*")"|"("[ ]*{DIGIT}+[ ]*{OPC}[ ]*{ID}[ ]*")"|"("[ ]*{DIGIT}+[ ]*{OPC}[ ]*{DIGIT}+[ ]*")"|"("[ ]*{ID}[ ]*{OPC}[ ]*{DIGIT}+[ ]*")"
 LOGIQEXPRES {NOPL}*"("[ ]*{COMPAREXPRES}[ ]*{OPL}[ ]*{COMPAREXPRES}[ ]*")"|{NOPL}*"("[ ]*{COMPAREXPRES}[ ]*")"
-ID [a-zA-Z_]{0,10}[0-9]*
+ID [a-zA-Z_]{1,10}[0-9]*
 ALPHA [a-zA-Z]
 TYPE "integer"|"real"|"str"
 DIGIT [0-9]

@@ -1,0 +1,12 @@
+logique_exp:
+        pre_operator POPEN compare_stmt PCLOSE
+    |   logique_exp l_operator logique_exp
+    ;
+pre_operator:
+    
+    |   NOT
+    ;
+l_operator:
+        ET
+    |   OU
+    ;

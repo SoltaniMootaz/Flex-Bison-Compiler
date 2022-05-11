@@ -1,0 +1,11 @@
+import MiniL.lang;
+import MiniL.io;
+public class a{
+main(){
+str i;
+b:=1/0;
+a1:=0;
+a2:=3;
+for(i:=12,i<12,i1++){
+}}
+}

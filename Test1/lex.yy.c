@@ -2386,7 +2386,7 @@ YY_DECL
 	register char *yy_cp, *yy_bp;
 	register int yy_act;
 
-#line 31 "test.l"
+#line 30 "test.l"
 
 #line 2392 "lex.yy.c"
 
@@ -2473,97 +2473,97 @@ do_action:	/* This label is used only to access EOF actions. */
 
 case 1:
 YY_RULE_SETUP
-#line 32 "test.l"
+#line 31 "test.l"
 {printf("import\n");}
 	YY_BREAK
 case 2:
 YY_RULE_SETUP
-#line 33 "test.l"
+#line 32 "test.l"
 {printf("boucle pour\n");}
 	YY_BREAK
 case 3:
 YY_RULE_SETUP
-#line 34 "test.l"
+#line 33 "test.l"
 {printf("operateur de negation\n");}
 	YY_BREAK
 case 4:
 YY_RULE_SETUP
-#line 35 "test.l"
+#line 34 "test.l"
 {printf("main\n");}
 	YY_BREAK
 case 5:
 YY_RULE_SETUP
-#line 36 "test.l"
+#line 35 "test.l"
 {printf("operateur arithmetique\n");}
 	YY_BREAK
 case 6:
 YY_RULE_SETUP
-#line 37 "test.l"
+#line 36 "test.l"
 {printf("ecpression arithmetique\n");}
 	YY_BREAK
 case 7:
 YY_RULE_SETUP
-#line 38 "test.l"
+#line 37 "test.l"
 {printf("affectation\n");}
 	YY_BREAK
 case 8:
 YY_RULE_SETUP
-#line 39 "test.l"
+#line 38 "test.l"
 {printf("Type\n");}
 	YY_BREAK
 case 9:
 YY_RULE_SETUP
-#line 40 "test.l"
+#line 39 "test.l"
 {printf("identificateur\n");}
 	YY_BREAK
 case 10:
 YY_RULE_SETUP
-#line 41 "test.l"
+#line 40 "test.l"
 {printf("declaration class\n");}
 	YY_BREAK
 case 11:
 YY_RULE_SETUP
-#line 42 "test.l"
+#line 41 "test.l"
 {printf("declaration variable\n");}
 	YY_BREAK
 case 12:
 YY_RULE_SETUP
-#line 43 "test.l"
+#line 42 "test.l"
 {printf("variable\n");}
 	YY_BREAK
 case 13:
 YY_RULE_SETUP
-#line 44 "test.l"
+#line 43 "test.l"
 {printf("operateur logique\n");}
 	YY_BREAK
 case 14:
 YY_RULE_SETUP
-#line 45 "test.l"
+#line 44 "test.l"
 {printf("operateur de comparaison\n");}
 	YY_BREAK
 case 15:
 YY_RULE_SETUP
-#line 46 "test.l"
+#line 45 "test.l"
 {printf("expression logique\n");}
 	YY_BREAK
 case 16:
 YY_RULE_SETUP
-#line 47 "test.l"
+#line 46 "test.l"
 {printf("expression de comparaison\n");}
 	YY_BREAK
 case 17:
 YY_RULE_SETUP
-#line 48 "test.l"
+#line 47 "test.l"
 {printf("c'est la fin d'un bloc\n");}
 	YY_BREAK
 case 18:
 YY_RULE_SETUP
-#line 49 "test.l"
+#line 48 "test.l"
 ;
 	YY_BREAK
 case 19:
 YY_RULE_SETUP
-#line 50 "test.l"
+#line 49 "test.l"
 ECHO;
 	YY_BREAK
 #line 2570 "lex.yy.c"
@@ -3452,7 +3452,7 @@ int main()
 	return 0;
 	}
 #endif
-#line 50 "test.l"
+#line 49 "test.l"
 
 void main(){
 yylex();

@@ -27,7 +27,6 @@ DECLARE {TYPE}+[ ]+[^\n]+{VAR}+";"|{TYPE}+[ ]+[^\n]+{VAR}+"["+{DIGIT}+"]"+";"
 MODIFICATEUR "public"|"private"
 
 
-
 %%
 {HEADER} {printf("import\n");}
 {BOUCLE} {printf("boucle pour\n");}

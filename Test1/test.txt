@@ -10,4 +10,11 @@ a1:=0;
 a2:=3;
 for(i:=0,(i<a2),i++){}
 }
-} 
+}
+import MiniL.lang;
+import MiniL.io;
+main() {
+integer i;
+a1:=0;
+a2:=3;
+}

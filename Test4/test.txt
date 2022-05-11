@@ -1,0 +1,5 @@
+import MiniL.lang ;
+main(){
+int a;
+a := 2 ;
+}
